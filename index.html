@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayfan Ramadhannus | Portfolio</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#151d35;--text:#eef2ff;--muted:#aab5d6;--accent:#62e6c4;--blue:#8da4ff}*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;line-height:1.6;color:var(--text);background:radial-gradient(circle at top right,#1d2c59,var(--bg) 45%)}a{color:var(--accent)}.container{width:min(1100px,92%);margin:auto}header{padding:80px 0 60px}.eyebrow{color:var(--accent);font-weight:bold;letter-spacing:2px;text-transform:uppercase}h1{max-width:760px;margin:12px 0;font-size:clamp(2.4rem,7vw,5rem);line-height:1.05;animation:name-reveal .9s cubic-bezier(.22,1,.36,1) both}@keyframes name-reveal{from{opacity:0;transform:translateY(28px);filter:blur(8px);letter-spacing:.08em}to{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:normal}}@media(prefers-reduced-motion:reduce){h1{animation:none}}h2{font-size:2rem}.intro{max-width:680px;color:var(--muted);font-size:1.1rem}nav{display:flex;gap:20px;margin-top:28px}nav a{text-decoration:none;font-weight:bold}section{padding:55px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{padding:28px;border:1px solid #2b385f;border-radius:18px;background:rgba(21,29,53,.88)}.card h3{color:var(--blue);margin-top:0;font-size:1.45rem}.card p{color:var(--muted)}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.tag{padding:6px 10px;border-radius:99px;color:#08131a;background:var(--accent);font-size:.85rem;font-weight:bold}.visual{display:grid;place-items:center;min-height:150px;margin:20px 0;padding:20px;border:1px dashed #52618b;border-radius:12px;color:var(--muted);text-align:center}.button{display:inline-block;padding:10px 16px;border-radius:8px;color:#08131a;background:var(--accent);text-decoration:none;font-weight:bold}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}.gallery figure{position:relative;margin:0}.gallery figure::after{content:'Lihat foto';position:absolute;inset:0;display:grid;place-items:center;border-radius:12px;color:#fff;background:rgba(8,19,26,.6);font-weight:bold;opacity:0;pointer-events:none;transition:opacity .25s ease}.gallery figure:hover::after,.gallery figure:focus-within::after{opacity:1}.gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid #2b385f;cursor:zoom-in;transition:transform .25s ease}.gallery figure:hover img,.gallery img:focus-visible{position:relative;z-index:1;transform:translateY(-12px) scale(1.12);outline:3px solid var(--accent);outline-offset:3px}.card img{border:1px solid #2b385f;cursor:zoom-in;transition:transform .25s ease,outline .25s ease}.card img:hover,.card img:focus-visible{position:relative;z-index:1;transform:translateY(-8px) scale(1.03);outline:3px solid var(--accent);outline-offset:3px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.cv-choice{position:relative}.cv-choice summary{list-style:none;cursor:pointer}.cv-choice summary::-webkit-details-marker{display:none}.cv-options{position:absolute;z-index:5;display:grid;gap:8px;min-width:190px;margin-top:8px;padding:10px;border:1px solid #2b385f;border-radius:12px;background:var(--panel);box-shadow:0 12px 28px rgba(0,0,0,.3)}.cv-options .button{white-space:nowrap}.button.secondary{color:var(--text);background:transparent;border:1px solid var(--accent)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}.stat{padding:18px;border:1px solid #2b385f;border-radius:14px;background:rgba(21,29,53,.7);text-align:center}.stat strong{display:block;color:var(--accent);font-size:1.8rem}.stat span{color:var(--muted);font-size:.9rem}.card,.stat{animation:rise-in .6s ease both}@keyframes rise-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@media(max-width:700px){.stats{grid-template-columns:1fr}}.gallery figcaption{padding-top:6px;color:var(--muted);font-size:.9rem}.image-popup{max-width:96vw;max-height:96vh;padding:0;border:0;background:transparent}.image-popup::backdrop{background:rgba(3,7,18,.9)}.image-popup img{display:block;max-width:95vw;max-height:94vh;width:auto;height:auto;border-radius:12px}.popup-close{position:absolute;top:8px;right:8px;width:38px;height:38px;border:0;border-radius:50%;color:#fff;background:rgba(0,0,0,.65);font-size:1.5rem;cursor:pointer}footer{padding:35px 0;color:var(--muted);border-top:1px solid #2b385f}@media(max-width:700px){.grid{grid-template-columns:1fr}header{padding-top:50px}}
+  </style>
+</head>
+<body>
+  <header class="container">
+<div class="eyebrow">Portfolio</div>
+<h1>Rayfan Ramadhannus</h1>
+<p class="intro">Membantu mahasiswa, peneliti, UMKM, dan sekolah membangun solusi berbasis data serta aplikasi web.</p>
+<div class="hero-actions">
+<a class="button" href="#proyek">Lihat Project</a>
+<a class="button secondary" href="#kontak">Hubungi Saya</a>
+<details class="cv-choice">
+<summary class="button secondary">Lihat CV</summary>
+<div class="cv-options">
+<a class="button" href="CV-Rayfan-Indonesia.pdf" target="_blank" rel="noopener noreferrer">CV Bahasa Indonesia</a>
+<a class="button" href="CV-Rayfan-English.pdf" target="_blank" rel="noopener noreferrer">CV English</a>
+</div>
+</details>
+</div>
+<div class="stats">
+<div class="stat"><strong>290K+</strong><span>TikTok Views</span></div>
+<div class="stat"><strong>5+</strong><span>Project &amp; Experience</span></div>
+<div class="stat"><strong>3</strong><span>Area Keahlian</span></div>
+</div>
+<nav>
+<a href="#proyek">Proyek</a>
+<a href="#pengalaman">Pengalaman</a>
+<a href="#kontak">Kontak</a>
+<a href="https://github.com/Rayfan-28" target="_blank" rel="noopener noreferrer">GitHub</a>
+</nav>
+</header>
+  <main id="proyek" class="container">
+    <section>
+<div class="eyebrow">Keahlian 01</div>
+<h2>Data &amp; Python</h2>
+<div class="grid">
+<article class="card">
+<h3>X (Twitter) Data Crawling &amp; Sentiment Analysis</h3>
+<p>Sistem otomatis untuk mengekstrak data dari platform X (Twitter), membersihkan teks, mengklasifikasikan sentimen opini publik, dan menampilkan hasil melalui web berbasis Flask.</p>
+<div class="tags">
+<span class="tag">Python</span>
+<span class="tag">Flask</span>
+<span class="tag">Pandas</span>
+<span class="tag">Sentiment Analysis</span>
+</div>
+<a class="button" href="https://github.com/Rayfan-28/Crawling-Data-Form-X" target="_blank" rel="noopener noreferrer">Lihat Repository</a>
+</article>
+</div>
+</section>
+    <section>
+<div class="eyebrow">Keahlian 02</div>
+<h2>Web Development</h2>
+<div class="grid">
+<article class="card">
+<h3>Sistem Informasi Terintegrasi</h3>
+<p>
+<strong>Jenis:</strong> Sistem Akademik.</p>
+<div class="visual">Tambahkan screenshot dashboard, form login, atau halaman utama di sini.</div>
+<p>Fitur utama mencakup pengelolaan data akademik dan penerapan <strong>Fuzzy Logic Sugeno</strong>.</p>
+<div class="tags">
+<span class="tag">PHP 8.3</span>
+<span class="tag">Laravel</span>
+<span class="tag">MySQL</span>
+</div>
+</article>
+<article class="card">
+<h3>Jasa Website</h3>
+<p>Pembuatan website profil, sistem informasi, dashboard, dan aplikasi web untuk UMKM serta sekolah.</p>
+</article>
+</div>
+</section>
+<section>
+  <div class="eyebrow">Keahlian 03</div>
+  <h2>Content Creation</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>UGC & TikTok Promo</h3>
+      <p>Strategi pembuatan video <em>User Generated Content</em> (UGC) vertikal dengan rekam jejak organik menembus <strong>>290K tayangan</strong>.</p>
+      <img src="images/Profile-Tiktok.jpeg" alt="Profil TikTok Rayfan" style="width:100%;height:220px;object-fit:cover;border-radius:12px;margin:20px 0;">
+<img src="images/Host-LIve.jpg" alt="Rayfan menjadi host live" style="width:100%;height:220px;object-fit:cover;border-radius:12px;margin:20px 0;">
+      <div class="tags">
+        <span class="tag">TikTok</span>
+        <span class="tag">CapCut</span>
+        <span class="tag">Copywriting</span>
+      </div>
+    </article>
+  </div>
+</section>
+    <section id="pengalaman">
+<div class="eyebrow">Pengalaman</div>
+<h2>Marketing, Host &amp; Event Organizer</h2>
+<div class="grid">
+<article class="card">
+<h3>Team Marketing Budi Luhur University</h3>
+<p>Aktif mempromosikan Budi Luhur University ke berbagai sekolah. Berkomunikasi dengan siswa, guru, dan calon mahasiswa untuk memperkenalkan program serta lingkungan kampus.</p>
+<div class="tags">
+<span class="tag">Marketing</span>
+<span class="tag">Public Speaking</span>
+<span class="tag">School Visit</span>
+</div>
+<img src="images/Sosialisasi-Sekolah.jpeg" alt="Kegiatan school visit Rayfan" style="width:100%;height:220px;object-fit:cover;border-radius:12px;margin:20px 0;">
+</article>
+<article class="card">
+<h3>Host Live &amp; Social Media</h3>
+<p>Berpengalaman menjadi host live dan aktif membuat konten di TikTok. Terbiasa tampil di depan kamera, membangun interaksi, serta menyampaikan informasi secara menarik.</p>
+<div class="tags">
+<span class="tag">Host</span>
+<span class="tag">TikTok</span>
+<span class="tag">Content</span>
+</div>
+<img src="images/Photoshoot-Session.jpeg" alt="Sesi photoshoot Rayfan" style="width:100%;height:220px;object-fit:cover;border-radius:12px;margin:20px 0;">
+</article>
+<article class="card">
+<h3>Event Organizer Semesta Berpesta BTV</h3>
+<p>Terlibat sebagai EO dalam acara <strong>Semesta Berpesta BTV</strong>, acara BTV yang bekerja sama dengan Budi Luhur University.</p>
+<div class="tags">
+<span class="tag">Event</span>
+<span class="tag">BTV</span>
+<span class="tag">Teamwork</span>
+</div>
+<img src="images/Event-Organize.jpeg" alt="Kegiatan event organizer Rayfan" style="width:100%;height:220px;object-fit:cover;border-radius:12px;margin:20px 0;">
+</article>
+</div>
+</section>
+  </main>
+  <dialog id="imageLightbox" class="image-popup" aria-label="Pratinjau foto">
+    <button class="popup-close" type="button" aria-label="Tutup foto">&times;</button>
+    <img src="" alt="">
+  </dialog>
+  <footer id="kontak" style="text-align: center;">
+  <div class="container">
+    <h2 style="color: var(--text); margin-bottom: 15px;">Mari Bekerja Sama</h2>
+    <p style="color: var(--muted); max-width: 500px; margin: 0 auto 25px auto;">
+      Butuh bantuan ekstraksi data riset, sistem informasi akademik, atau aset visual promosi? Mari diskusikan kebutuhan proyekmu.
+    </p>
+    <a class="button" href="https://wa.me/087764016525" target="_blank" rel="noopener" style="font-size: 1.1rem; padding: 14px 28px; margin-bottom: 40px;">
+      Chat via WhatsApp
+    </a>
+    
+    <div style="border-top: 1px solid #2b385f; padding-top: 25px; margin-top: 20px;">
+      <strong>Rayfan Ramadhannus</strong><br>
+      Data, Python, Web Development & Content Creator.
+    </div>
+  </div>
+</footer>
+<script>
+    const lightbox = document.querySelector('#imageLightbox');
+    const lightboxImage = lightbox.querySelector('img');
+
+    document.querySelectorAll('.card img').forEach((image) => {
+      image.tabIndex = 0;
+      image.addEventListener('click', () => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+        lightbox.showModal();
+      });
+      image.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') image.click();
+      });
+    });
+
+    lightbox.querySelector('button').addEventListener('click', () => lightbox.close());
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) lightbox.close();
+    });
+  </script>
+</body>
+</html>
+
